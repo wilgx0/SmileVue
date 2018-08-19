@@ -6,8 +6,8 @@ import router from './router'
 
 Vue.config.productionTip = false
 
-import { Tab,Tabs,Button,Row,Col,Search , Swipe , SwipeItem ,Lazyload,List,Field,NavBar} from 'vant'
-Vue.use(Tab).use(Tabs).use(Field).use(NavBar).use(Button).use(Row).use(Col).use(Search).use(Swipe).use(SwipeItem).use(Lazyload).use(List)
+import {Tabbar,TabbarItem,Stepper,PullRefresh, Tab,Tabs,Button,Row,Col,Search , Swipe , SwipeItem ,Lazyload,List,Field,NavBar} from 'vant'
+Vue.use(Tabbar).use(TabbarItem).use(Stepper).use(PullRefresh).use(Tab).use(Tabs).use(Field).use(NavBar).use(Button).use(Row).use(Col).use(Search).use(Swipe).use(SwipeItem).use(Lazyload).use(List)
 
 import VueAwesomeSwiper from 'vue-awesome-swiper'
  

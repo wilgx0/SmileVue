@@ -9,6 +9,8 @@ const URL = {
     login:LOCALURL+'user/login',   //用户登录
     getDetailGoodsInfo:LOCALURL+'goods/getDetailGoodInfo',   //获取商品详细信息
     getCategoryList:LOCALURL + 'goods/getCategoryList',   //获取大类信息
+    getCategorySubList:LOCALURL+'goods/getCategorySubList',  //获取小类
+    getGoodsListByCategorySubID:LOCALURL+'goods/getGoodsListByCategorySubID',   //得到小类商品信息
 }
  
 module.exports = URL
